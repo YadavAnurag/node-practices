@@ -1,0 +1,15 @@
+{
+  "name": "node-tests",
+  "version": "1.0.0",
+  "description": "Testing node app working right or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "author": "Anurag Yadav",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "node-mongodb",
+  "version": "1.0.0",
+  "description": "Node and Mongodb crud",
+  "main": "testMongoDriver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anurag Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.1.0-beta4"
+  }
+}
